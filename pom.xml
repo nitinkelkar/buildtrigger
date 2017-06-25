@@ -9,7 +9,14 @@
 	<url>http://maven.apache.org</url>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<sonar.host.url>http://localhost:9000/<sonar.exclusions>
 	</properties>
+			
+	<modules>
+		<module>parent</module>
+		<module>xmlapi</module>
+		<module>common</module>
+         </modules>
 	<dependencies>
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
